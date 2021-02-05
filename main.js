@@ -50,7 +50,7 @@ window.onload = function() {
 
   var objLoader = new THREE.OBJLoader();
 
-  loader.load( "bb8.obj", function ( object ) {
+  loader.load( 'https://raw.githubusercontent.com/j1272/test/main/bb8.obj', function ( object ) {
 
     console.log(object);
 
